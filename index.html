@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Como está o céu hoje?</h1>
+
+        <div="container">
+
+        <input type="text" id="campo-texto" placeholder="Buscar um local...">
+
+        <button id="botao">Buscar</button>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section>
+            <div class="cartao">
+
+            <div id="local">
+                <p>Porto Alegre BR</p>
+                <P>14 de novembro de 2026</P>
+            </div>
+
+            <div id="inf">
+                <img src="assets/icon-sunny.webp" alt="tempo">
+                <span id="temperatura">25</span>°C
+            </div>
+
+        </div>
+
+            <div class="condicoes">
+                <div>
+                    <p>Sensação térmica</p>
+                    <p><span id="sensacao-termica">20</span>°C</p>
+                </div>
+
+                <div>
+                    <p>Umidade</p>
+                    <p><span id="umidade">58</span>%</p>
+                </div>
+
+                <div>
+                    <p>Vento</p>
+                    <p id="vento">11,8 km/h</p>
+                </div>
+
+                <div>
+                    <p>Precipitação</p>
+                    <p id="precipitacao">0 mm</p>
+                </div>
+
+            </div>
+
+        </section>
+        
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
